@@ -19,7 +19,7 @@ npm install react-pdf-export
 Below are the examples of pdf generation
 
 ### Generating a Simple PDF
-#### In this example, we generate a basic PDF document from two React components using default options.
+In this example, we generate a basic PDF document from two React components using default options.
 
 ```javascript
 import { generatePDF } from 'react-pdf-export';
@@ -35,7 +35,7 @@ generatePDF(components);
 ```
 
 ### Customizing PDF Options
-#### Here's an example where we customize the PDF generation with specific options like landscape orientation and increased scale.
+Here's an example where we customize the PDF generation with specific options like landscape orientation and increased scale.
 
 ```javascript
 import { generatePDF } from 'react-pdf-export';
@@ -54,7 +54,7 @@ generatePDF(components, options);
 ```
 
 ### Adding Additional Content
-#### In this example, we include additional content like text and images along with React components in the PDF.
+In this example, we include additional content like text and images along with React components in the PDF.
 
 ```javascript
 import { generatePDF } from 'react-pdf-export';
